@@ -38,10 +38,10 @@ class PantryApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Pantry Inventory',
-      theme: ThemeData(primarySwatch: Colors.green), // This belongs here, not in YAML!
+      theme: ThemeData(primarySwatch: Colors.green), 
       home: const AuthGate(),
     );
   }
-}
+
   }
 }
